@@ -64,7 +64,7 @@ $ git clone https://github.com/MRXCOD/Xphisher.git
 ```
 #### RUN SCRIPT
 ```python
-$ cd ip2
+$ cd Xphisher
 $ python ip2.py
 ```
  
