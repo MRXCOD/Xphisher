@@ -71,7 +71,7 @@ $ python ip2.py
 #### [~] SINGLE COMMAND
  
 ```python
-apt update -y ; apt upgrade -y ; apt install python -y ; pip install requests ; pip install mechanize ; pip install lolcat ; pip install bs4 ; apt install git -y ; git clone https://github.com/MRXCOD/Xphisher ; cd ip2 ; python ip2.py
+apt update -y ; apt upgrade -y ; apt install python -y ; pip install requests ; pip install mechanize ; pip install lolcat ; pip install bs4 ; apt install git -y ; git clone https://github.com/MRXCOD/Xphisher ; cd Xphisher ; python ip2.py
 ```
 
 #### MY SOCIAL MEDIA
