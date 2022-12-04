@@ -21,7 +21,7 @@ try:
 	import phonenumbers
 except ImportError:
 	os.system('pip install phonenumbers')
-	time.sleep(1)
+	time.sleep(0)
 	try:
 		import phonenumbers
 	except ImportError:
