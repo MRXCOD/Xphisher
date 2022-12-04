@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#github.com/MRXROD
+#github.com/MRXCOD
 #DONT BE A COPY CAT 
 
-#AUTHOR : MRX (MRXROD)
+#AUTHOR : MRX (MRXCOD)
 #OPEN SOURCE :)
 #DON'T FORGET TO GIVE CREDIT TO THE AUTHOR
 
@@ -17,13 +17,21 @@ import sys
 import time
 import subprocess
 import socket
-import phonenumbers
+try:
+	import phonenumbers
+except ImportError:
+	os.system('pip install phonenumbers')
+	time.sleep(1)
+	try:
+		import phonenumbers
+	except ImportError:
+		exit('Module phonenumbers not installed, Install Manually (pip install phonenumbers)')
 from phonenumbers import geocoder
 from phonenumbers import carrier
 from phonenumbers import timezone
 
-os.system('pip install phonenumbers')
-time.sleep(1)
+#os.system('pip install phonenumbers')
+#time.sleep(1)
 
 #Colour
 H = ('\x1b[1;90m')
@@ -409,3 +417,4 @@ def log_sel1():
 		sys.exit()
 		
 log_sel1()
+#coded by MRX(ALLEN SMITH)
